@@ -1,0 +1,103 @@
+/* p{color:bleu ;
+    font-size: 20px
+}
+h5{
+    color:bleu ;
+    
+}
+h{color: red;}
+h1{text-align: center;
+/* } */
+
+/* .main {
+    width: 800%;
+    background :linear-gradient();
+    to.top , rgha(0,0,0,0,5 , 50% );
+    background-position:center;
+    background-size: cover 
+
+} */
+/* header {
+    display 
+    align-items: center ;
+    padding 
+} */
+ /* .box {
+    width: 200px;
+    padding: 20px;
+    border: 2px solide black;
+    margin :30px;
+ } */
+  header {
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+  }
+  header img {
+    width: 120px;
+    padding-right: 52px;
+    padding-left: 52px;
+  }
+  nav{
+    display: flex; 
+    gap : 30px;
+    margin-left: 10px;
+   
+  }
+  nav a{
+    text-decoration: none;
+    color :black;
+  
+  }
+  button{
+    background-color: blue;
+    padding : 10px
+  }
+  body {
+    margin: 25px ;
+    
+  }
+  .hero {
+    margin: 25px;
+  }
+  .hero h5{
+    font-size:20px ;
+    color :blue;
+  }
+ .hero h2{
+font-size: 40px ;
+    color :black
+    font-weilght; bold;
+    margin-left: 10px;
+}
+
+input  [type-text] 
+{
+    width :100% ;
+padding :20px;
+margin : 8px 0;
+display:flex;
+border-radius: 4px;
+margin-left: 25px;
+/* box-sizing: border-box; */
+}
+
+head {
+    align-items: center;
+    margin-left: 10px ;
+    margin-right: 40px;
+}
+
+.inn{
+     width: 100vw;
+   
+}
+.inn input{
+    width:500px;
+    height: px;
+
+}
+.main{
+    margin: 40px ;
+}
