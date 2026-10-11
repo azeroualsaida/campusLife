@@ -8,22 +8,27 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="main">
+        <div >
         <img src="45.jpg" alt="logo de ce site">
         </div>
         <nav>
             <a href="accueil.html">Acceil</a>
-            <a href="campus.html">campus</a>
+            <a href="campus.html">Campus</a>
             <a href="#">Contact</a>
             <a href="#">Clubs& activites</a>
-            <a href="#">Evenements</a> 
+            <a href="#">Événements</a> 
             <a href="#">Conseils aux nouveaux</a>
             <a href="#">Contact</a>
-            <i class="fa-solid fa-magnifying-glass"></i>
         </nav>
+        <div>
+           <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
         <button>
                Rejoindre <br> l’aventure
       </button>
@@ -31,7 +36,7 @@
     <main class="main">
 <section class ="hero" >
 <h5>TES PREMIERS PAS À YOUCODE</h5>
-<h2>Ton aventure commence par une rencontre</h2>
+<h1>Ton aventure commence par une rencontre</h1>
 </section>
 <form > 
 <div class="in">
@@ -44,77 +49,89 @@
         <input type = "email" id = "fname" EmaiL = "fname" > <br>
         <label for ="Phone"> Telephone: </label>
         <br>
-        <input type ="Number" id="Phone" Telephone ="phone"><br> <br>
+        <input class="phone" type ="Number" id="Phone" Telephone ="phone"><br> <br>
     </div> 
 
 <div>
-    <input type="radio" id ="safi" name="campus" value="Safi">
-    <label for ="safi">Safi</label><br>
-    <input type ="radio" id ="youssoufia" name="campus" value="Youssoufia">
-    <label for ="youssoufia" >Youssoufia</label><br>
-    <input type ="radio" id ="nador" name="campus" value="Nador">
-    <label for ="nador">Nador</label><br> <br>
-     
-    <button>
-        S'inscrire
-    </button>
+    <div class="radio">
+        <div>
+            <input type="radio" id ="safi" name="campus" value="Safi">
+            <label for ="safi">Safi</label><br>
+        </div>
+        <div> 
+            <input type ="radio" id ="youssoufia" name="campus" value="Youssoufia">
+            <label for ="youssoufia" >Youssoufia</label><br>
+        </div>
+        <div>
+            <input type ="radio" id ="nador" name="campus" value="Nador">
+            <label for ="nador">Nador</label><br> <br>
+        </div>
+    </div>
+   
+        <button  class="botton">
+            S'inscrire
+        </button>
+    
  </div>
 </div>
-</main>
 </form>
-        <div>
-            <div>
-                <img src="code.jpg" alt="youcode logo ">
-            </div>
-            <div>
-                <p>
-                    Campus Life — des espaces, des projets et une communauté pour grandir ensemble.
-                </p>
-            </div>
-        </div>
+</main>
+<footer>
+
+    <div >
         <div >
-            <div>
-    
-                <p>">EXPLORER</p> 
-                <ul >
-                    
-                    <li>
-                        <a href="index.html">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="#">Campus</a>
-                    </li>
-                     <li>
-                       <a href="#">Clubs & activités</a>
-                     </li>
-                </ul>       
-            </div>
-            <p>SE RETROUVER</p>
-            <div>
-                <ul>      
-                   <li>
-                      <a href="index.html">Événements</a>
-                    </li>   
-                    <li>
-                      <a href="#">Conseils aux nouveaux</a>
-                    </li>    
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>   
-                </ul>
-            </div>
+            <img src="code.jpg" alt="youcode logo ">
         </div>
+        <div>
+            <p>
+                Campus Life — des espaces, des projets et une communauté pour grandir ensemble.
+            </p>
+        </div>
+    </div>
+    <div >
+        <div>
+
+            <p>">EXPLORER</p> 
+            <ul >
+                
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">Campus</a>
+                </li>
+                 <li>
+                   <a href="#">Clubs & activités</a>
+                 </li>
+            </ul>       
+        </div>
+        <p>SE RETROUVER</p>
+        <div>
+            <ul>      
+               <li>
+                  <a href="index.html">Événements</a>
+                </li>   
+                <li>
+                  <a href="#">Conseils aux nouveaux</a>
+                </li>    
+                <li>
+                  <a href="#">Contact</a>
+                </li>   
+            </ul>
+        </div>
+    </div>
+<div>
  <div>
-     <div>
-         <p>
-             Projet pédagogique fictif
-         </p>
-     </div>
-     <div>
-         <p>
-             Campus Life — YouCode
-         </p>
-     </div>
- </div>       
+     <p>
+         Projet pédagogique fictif
+     </p>
+ </div>
+ <div>
+     <p>
+         Campus Life — YouCode
+     </p>
+ </div>
+</div>       
+</footer>
 </body>
 </html>

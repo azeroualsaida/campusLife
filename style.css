@@ -1,38 +1,17 @@
-/* p{color:bleu ;
-    font-size: 20px
-}
-h5{
-    color:bleu ;
-    
-}
-h{color: red;}
-h1{text-align: center;
-/* } */
 
-/* .main {
-    width: 800%;
-    background :linear-gradient();
-    to.top , rgha(0,0,0,0,5 , 50% );
-    background-position:center;
-    background-size: cover 
 
-} */
-/* header {
-    display 
-    align-items: center ;
-    padding 
-} */
- /* .box {
-    width: 200px;
-    padding: 20px;
-    border: 2px solide black;
-    margin :30px;
- } */
+*{
+  font-family:"Inter", sans-serif;
+    margin: 0 ;
+}
+
+
   header {
     display: flex ;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 40px;
+    margin: 15px;
+    
   }
   header img {
     width: 120px;
@@ -48,28 +27,33 @@ h1{text-align: center;
   nav a{
     text-decoration: none;
     color :black;
+    font-size: 15px;
   
   }
   button{
     background-color: blue;
-    padding : 10px
+    padding : 10px 30px ;
+    border-radius: 8px;
+    color: white  ;
   }
-  body {
-    margin: 25px ;
-    
-  }
+
   .hero {
-    margin: 25px;
+  
   }
   .hero h5{
     font-size:20px ;
-    color :blue;
+    color :#034BFF;
+    margin-top: 10px ;
+  font-weight: 300;
+    
   }
- .hero h2{
-font-size: 40px ;
-    color :black
-    font-weilght; bold;
-    margin-left: 10px;
+ .hero h1{
+    font-size: 40px ;
+    color :black;
+    font-weight: bold;
+   
+    margin-top: 10px;
+
 }
 
 input  [type-text] 
@@ -77,10 +61,11 @@ input  [type-text]
     width :100% ;
 padding :20px;
 margin : 8px 0;
-display:flex;
+display: flex;
 border-radius: 4px;
 margin-left: 25px;
 /* box-sizing: border-box; */
+ma
 }
 
 head {
@@ -89,15 +74,44 @@ head {
     margin-right: 40px;
 }
 
-.inn{
-     width: 100vw;
-   
+form{
+  margin-top: 25px;
+  
 }
 .inn input{
-    width:500px;
-    height: px;
-
+    width: 45%;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border:1px solid #E2E1E5 ;
 }
 .main{
-    margin: 40px ;
+    margin: 60px ;
+}
+.radio{
+  margin-top: 10PXpx ;
+ 
+  ;
+
+}
+.radio input{
+  width: 300;
+  height: 20px;
+  margin-bottom: 40px;
+
+
+
+}
+
+
+.botton {
+  text-align: left;
+  width: 45%;
+}
+.radio div{
+  height: 60px;
+}
+.phone {
+  margin-bottom: 5px !important;
 }
